@@ -48,7 +48,7 @@
 
       section {
         height: 100vh;
-        padding-top: 160px;
+        padding-top: 190px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -216,22 +216,25 @@
         max-width: 300px;
         border-radius: 10px;
       }
-      @media (max-width: 768px) {
+     @media (max-width: 768px) {
   .photo-right {
     flex-direction: column;
-    width: 90%;
+    align-items: center;
     gap: 20px;
     padding: 10px;
+    width: 90%;
   }
 
   .photo-right img {
-    max-width: 100%;
     width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 
   .photo-right .text {
-    padding: 0;
     font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
   }
 
   .header-text-highlighted {
@@ -247,6 +250,7 @@
     font-size: 28px;
   }
 }
+
 
       .photo-right .text {
         max-width: 500px;
@@ -385,7 +389,7 @@
 
       #music-toggle {
         position: fixed;
-        bottom: 60px;
+        bottom: 80px;
         right: 20px;
         font-size: 28px;
         background-color: rgba(255, 255, 255, 0.6);
