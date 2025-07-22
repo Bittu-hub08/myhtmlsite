@@ -1,111 +1,528 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Drishti</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+      }
 
-<head>
-  <meta charset="utf-8">
-  <title>🖤Bittu's personal website</title>
-</head>
-
-<body>
-  <table cellSpacing="20">
-    <tr>
-      <td><img src="img/wp3.jpeg" alt=""></td>
-      <td><h1>Bittu kumar</h1>
-      <p>Very hard working guy of <em><a href="https://www.nitkkr.ac.in/">NITKKR</a> </em></p>
-      <p>I am a web developer and very much intereseted in cricket.I am hoping to get a job soon</p></td>
-    </tr>
-  </table>
-
-
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>12th from DAV Public School</li>
-    <li>B.Tech from NITKKR</li>
-  </ul>
-  <hr>
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Cricket</li>
-    <li>Songs</li>
-  </ol>
-  <hr>
-  <h3>Working throughout the years</h3>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2015-2017</td>
-        <td>Prep for boards</td>
-      </tr>
-      <tr>
-        <td>2017-2018</td>
-        <td>Prep for clg</td>
-      </tr>
-      <tr>
-        <td>2018-2022</td>
-        <td>B.Tech</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-<table>
-  <tr>
-    <td>  <table>
-        <tr>
-          <td>Web developer</td>
-          <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>Problem solving</td>
-          <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>Photography</td>
-          <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>Cricket</td>
-          <td>⭐⭐⭐⭐</td>
-        </tr>
-      </table></td>
-      <td>  <table>
-          <tr>
-            <td>Web developer</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Problem solving</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Photography</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Cricket</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-        </table></td>
-  </tr>
-</table>
+      header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: linear-gradient(90deg, #ffccd5, #ffe0f0, #ffccd5);
+        color: #d6336c;
+        padding: 20px;
+        font-size: 28px;
+        text-align: center;
+        z-index: 1000;
+        font-weight: bold;
+        font-family: 'Lucida Handwriting', cursive;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+      footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #ffccd5, #ffe0f0, #ffccd5);
+  color: #d6336c;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Lucida Handwriting', cursive;
+  z-index: 1000;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
 
 
+      section {
+        height: 100vh;
+        padding-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: #333;
+        position: relative;
+        overflow: hidden;
+        font-size: 20px;
+      }
+
+      .page1 {
+        background: linear-gradient(rgba(246, 161, 161, 0.7), rgba(11, 11, 11, 0.7)), url('img/bkg1.jpg') no-repeat center center/cover;
+        color: white;
+      }
+
+      .page1 h1 {
+        font-size: 120px;
+        font-family: 'Brush Script MT', cursive;
+        text-shadow: 3px 3px 7px rgba(250, 150, 150, 0.5);
+      }
+      .page1 p {
+        font-size: 30px;
+        margin-top: 20px;
+        max-width: 800px;
+         font-family: "Papyrus", Fantasy;
+      }
+
+      .page2 {
+        background: linear-gradient(rgba(248, 246, 246, 0.7), rgba(11, 11, 11, 0.7)),url('img/bkg.jpg') no-repeat center center/cover;
+        color: #f6f2f4;
+      }
+      .page2 p {
+        font-size: 24px;
+        max-width: 800px;
+        margin-top: 20px;
+        font-family: 'Dancing Script', cursive;
+      }
+      .page2 h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-family: 'Great Vibes', cursive;
+        color: #fffcfd;
+      }
+
+      .page3 {
+              background: linear-gradient(rgba(241, 171, 171, 0.7), rgba(29, 24, 24, 0.7)),url('img/bkg2.jpg') no-repeat center center/cover;
+        color: #f6f2f4;
+      }
+         .page3 p {
+        font-size: 24px;
+        max-width: 800px;
+        margin-top: 20px;
+        font-family: 'Dancing Script', cursive;
+      }
+            .page3 h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-family: 'Great Vibes', cursive;
+        color: #fffcfd;
+      }
+
+      .page4 {
+                    background: linear-gradient(rgba(241, 171, 171, 0.7), rgba(29, 24, 24, 0.7)),url('img/bkg3.jpg') no-repeat center center/cover;
+        color: #f6f2f4;
+      }
+         .page4 p {
+        font-size: 24px;
+        max-width: 800px;
+        margin-top: 20px;
+        font-family: 'Dancing Script', cursive;
+      }
+            .page4 h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-family: 'Great Vibes', cursive;
+        color: #fffcfd;
+      }
+
+     .page5 {
+        background: linear-gradient(rgba(248, 246, 246, 0.7), rgba(11, 11, 11, 0.7)),url('img/bkg4.jpg') no-repeat center center/cover;
+        color: #f6f2f4;
+      }
+
+         .page5 p {
+        font-size: 24px;
+        max-width: 800px;
+        margin-top: 20px;
+        font-family: 'Dancing Script', cursive;
+      }
+                .page5 h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-family: 'Great Vibes', cursive;
+        color: #fffcfd;
+      }
+      .page6 {
+        background: linear-gradient(rgba(248, 246, 246, 0.7), rgba(11, 11, 11, 0.7)),url('img/bkg5.jpg') no-repeat center center/cover;
+        color: #f6f2f4;
+      }
+
+         .page6 p {
+        font-size: 24px;
+        max-width: 800px;
+        margin-top: 20px;
+        font-family: 'Dancing Script', cursive;
+      }
+                .page6 h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-family: 'Great Vibes', cursive;
+        color: #fffcfd;
+      }
+       .page7 {
+        background: linear-gradient(rgba(248, 246, 246, 0.7), rgba(11, 11, 11, 0.7)),url('img/bkg6.jpg') no-repeat center center/cover;
+        color: #f6f2f4;
+      }
+
+         .page7 p {
+        font-size: 24px;
+        max-width: 800px;
+        margin-top: 20px;
+        font-family: 'Dancing Script', cursive;
+      }
+                .page7 h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-family: 'Great Vibes', cursive;
+        color: #fffcfd;
+      }
+
+.page8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px; /* reduce this to appropriate value */
+  min-height: 100vh; /* <-- allows it to grow beyond screen height */
+  text-align: center;
+}
+
+
+.page8 h1 {
+  font-size: 50px;
+  font-family: 'Brush Script MT', cursive;
+  text-shadow: 3px 3px 7px rgba(250, 150, 150, 0.5);
+  margin-top: 0;
+  margin-bottom: 20px; /* spacing between header and text */
+}
 
 
 
-<hr>
-  <a href="Parents.html">Parents</a>
-  <hr>
-  <a href="Contact.html">Contact Meeh</a>
-  <hr>
-  <a href="Review.html">Your Review</a>
-</body>
+      .photo-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 60%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
 
-</html>
+      .photo-right img {
+        max-width: 300px;
+        border-radius: 10px;
+      }
+
+      .photo-right .text {
+        max-width: 500px;
+        font-size: 20px;
+        padding: 0 10px;
+      }
+
+      .photo-right .text h2 {
+  margin-bottom: 10px; /* reduces space between h2 and p */
+}
+
+      .header-text-highlighted {
+        background: linear-gradient(to right, #f783ac, #faa2c1);
+        padding: 10px;
+        border-radius: 12px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 24px;
+      }
+
+      .photo-gallery {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .photo-gallery img {
+        width: 60%;
+        max-width: 300px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .heart {
+        position: fixed;
+        top: -20px;
+        width: 20px;
+        height: 20px;
+        background-image: url('https://cdn-icons-png.flaticon.com/512/833/833472.png');
+        background-size: cover;
+        z-index: 0;
+        animation: fall linear forwards;
+      }
+      .small-img {
+      width: 60%;
+      max-width: 400px;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .birthday-message {
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  max-width: 900px;
+  margin: auto;
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+.birthday-message h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #e91e63;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+
+.birthday-message p {
+  margin-bottom: 25px;
+  line-height: 1.8;
+  color: #4e4e4e;
+}
+
+.birthday-message strong {
+  color: #c2185b;
+  font-weight: bold;
+}
+
+.birthday-message em {
+  font-style: italic;
+  color: #9c27b0;
+}
+
+/* Soft fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+    .balloon {
+  position: fixed;
+  bottom: -50px;
+  width: 30px;
+  height: 50px;
+  background: radial-gradient(circle at 30% 30%, #f783ac, #d6336c);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  z-index: 0;
+  animation: rise linear forwards;
+  opacity: 0.9;
+  box-shadow: inset -2px -4px 10px rgba(0,0,0,0.2);
+}
+
+.balloon::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 15px;
+  background: #333;
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-110vh);
+    opacity: 0;
+  }
+}
+
+      @keyframes fall {
+        to {
+          transform: translateY(100vh);
+          opacity: 0;
+        }
+      }
+
+      #music-toggle {
+        position: fixed;
+        bottom: 60px;
+        right: 20px;
+        font-size: 28px;
+        background-color: rgba(255, 255, 255, 0.6);
+        color: #000;
+        border-radius: 50%;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 20;
+      }
+    </style>
+  </head>
+  <body>
+    <audio id="bg-music" autoplay loop>
+      <source src="img/songs.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <div id="music-toggle" onclick="toggleMusic()">🔊</div>
+
+    <header>To Drishti, With Love 💖</header>
+
+    <section class="page1">
+      <h1>Happy Birthday Drishti!</h1>
+      <p>On August 03, 2002, Earth said: ‘Let me flex a little,’ and gave us Drishti !</p>  
+    </section>
+
+    <section class="page2">
+      <div class="photo-right">
+        <div class="text">
+          <h2 class="header-text-highlighted">Happy birthday to the sassiest, strongest, and sexiest girl I know :]</h2>
+          <p>
+            My dearest Drishti,<br>
+            Today, I just want to take a moment to thank the universe — because 23 years ago, it brought someone really special into the world.
+            And I feel lucky every day that somehow, that person became mine.
+From the day we met, your smile, your kindness, and the way you light up a room have stayed with me.
+Every day with you feels special — but today is your day, and I just want to make you feel as loved and happy as you’ve made me feel.
+You’ve brought so much joy and comfort into my life, and I’m truly thankful for every moment we share.
+As we move forward together, I promise to always be by your side, support your dreams, and be there through everything — good or bad.
+I hope this birthday is the start of a year full of love, laughter, little surprises, and memories we’ll always remember.
+You’re not just someone I love — you’re my peace, my person, and the best part of my story.<br>
+            <strong>Happy Birthday, my sweetest Drishti!</strong><br>
+            <strong>Ami tomake bhalobashi 💗</strong>
+          </p>
+        </div>
+        <img src="img/drishti.jpg" alt="Drishti's Photo" />
+      </div>
+    </section>
+    
+     <section class="page3">
+      <div class="text">
+        <h2 class="header-text-highlighted">Remember where we first met?</h2>
+        <p>
+          On a cozy evening of January 5, 2025, after waiting for 30 minutes, I saw the most beautiful girl for the first time...
+          It was a bit awkward — you were way out of my league, and I was wearing a completely out-of-fashion outfit.
+          After that, we went to the mall, which was super crowded, and then to Loco Bear, where we played bowling.
+          And then came the best part — our Glenn's Bakehouse date — where we truly saw each other up close for the first time.
+          Your eyes said so much, and honestly, they left me speechless.
+          I dropped you home on my bike, with some flowers and chocolates, believing with a strange certainty that we would never meet again. :]
+        </p>
+      </div>
+      <img src="img/first.jpg" alt="First Meeting" class="small-img">
+      <p>(And i only have 1 photuu left, courtsey- your gussa.)</p>
+    </section>
+
+    <section class="page4">
+      <h2 class="header-text-highlighted">Our First Movie Date 🎥🏡</h2>
+      <div class="photo-gallery">
+        <img src="img/first1.jpeg" alt="Bowling 1"  />
+        <img src="img/first3.jpeg" alt="Bowling 2" />
+      </div>
+      <p>After that we had endless Movie dates...</p>
+    </section>
+
+    <section class="page5">
+      <h2 class="header-text-highlighted">Our First Room Meetup 🎥🏡</h2>
+      <div class="photo-gallery">
+        <img src="img/IMG_2406.jpg" alt="Movie Date" />
+        <img src="img/IMG_2405.jpg" alt="Room Meetup" />
+        <img src="img/IMG_2404.jpg" alt="Room Meetup" />
+      </div>
+      <p>Condition of our lips were not that good after that btw...</p>
+    </section>
+
+        <section class="page6">
+      <h2 class="header-text-highlighted">Our First and Only Concert together :]  🎥🏡</h2>
+      <div class="photo-gallery">
+        <img src="img/IMG_2402.jpg" alt="Movie Date" />
+        <img src="img/IMG_2403.jpg" alt="Room Meetup" />
+      </div>
+      <p>you looked so beautiful that day btw....</p>
+    </section>
+
+            <section class="page7">
+      <h2 class="header-text-highlighted">Bike Ride to Somewhere :]  🎥🏡</h2>
+      <div class="photo-gallery">
+        <img src="img/IMG_2410.jpg" alt="Movie Date" />
+        <img src="img/IMG_2409.jpg" alt="Room Meetup" />
+        <img src="img/IMG_2408.jpg" alt="Movie Date" />
+        <img src="img/IMG_2407.jpg" alt="Room Meetup" />
+      </div>
+    </section>
+
+    <div class="page page8 birthday-message">
+  <h1>To My Angel, <em>DRISHTI</em></h1>
+  <p>
+    From the 5th of January until now, you’ve become the most precious part of my life.  
+    In just these 7-8 months, we’ve lived a lifetime together—smiles that lit up our days, laughter that echoed in our hearts, fights that tested us, and even moments where we almost gave up… but we didn’t.  
+    Because every single day, <strong>we still choose each other</strong>. We choose love. We choose <em>us</em>.
+  </p>
+  <p>
+    With you, I feel whole. Complete in ways I didn’t know I was missing.  
+    You’ve done so much for me—more than I ever deserved.  
+    I was flawed. I still am. But you stood by me… you tolerated my worst and embraced my broken pieces.  
+    You forgave me when I needed it the most. And that… I’ll never forget.
+    I truly believe that our future will be beautiful—because we’ll build it together.  
+    And I promise, with every ounce of me, I’ll try to keep you smiling forever.  
+    Just one request—<strong>never lose hope in me</strong>. Even when I falter.
+    Now, about <em>you</em>—the most beautiful soul I’ve ever known.  
+    To me, you’re nothing less than an angel.  
+    Honestly, I still can't believe I get to call you mine.
+  </p>
+  <p>
+    This is your <strong>first birthday with me</strong>, and I promise—it’s only the beginning.  
+    For the next 50, 60, or even more years, I’ll do everything in my power to surprise you, to make you laugh, to hold you when you’re tired, and to be your safest place.  
+    Your joy, your health, your smile—<strong>they’ll always be my first priority</strong>.
+  </p>
+  <p>
+    So today, on your special day, I wish you all the happiness this universe can give.  
+    Let’s celebrate not just your birthday, but <em>our journey</em>.  
+    <strong>This year will be magical… because we’re in it together.</strong> 💖
+  </p>
+</div>
+
+    <script>
+      const music = document.getElementById('bg-music');
+      const toggle = document.getElementById('music-toggle');
+      function toggleMusic() {
+        if (music.paused) {
+          music.play();
+          toggle.innerText = '🔊';
+        } else {
+          music.pause();
+          toggle.innerText = '🔇';
+        }
+      }
+
+      function createHeart() {
+        const heart = document.createElement('div');
+        heart.className = 'heart';
+        heart.style.left = Math.random() * 100 + 'vw';
+        heart.style.animationDuration = 8 + Math.random() * 6 + 's';
+        document.body.appendChild(heart);
+        setTimeout(() => heart.remove(), 5000);
+      }
+      setInterval(createHeart, 60);
+
+      function createBalloon() {
+  const balloon = document.createElement('div');
+  balloon.className = 'balloon';
+  balloon.style.left = Math.random() * 100 + 'vw';
+  balloon.style.animationDuration = 6 + Math.random() * 5 + 's';
+  document.body.appendChild(balloon);
+  setTimeout(() => balloon.remove(), 12000);
+}
+
+setInterval(createBalloon, 800); // One balloon every 0.8s
+    </script>
+    <footer>
+  Created with ❤️ by Your Bittu💗 — 📸 @bkumar08 — 📞 +91-7667459505
+</footer>
+  </body>
+  </html>
