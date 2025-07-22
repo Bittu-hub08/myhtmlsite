@@ -66,12 +66,12 @@
       }
 
       .page1 h1 {
-        font-size: 120px;
+        font-size: 60px;
         font-family: 'Brush Script MT', cursive;
         text-shadow: 3px 3px 7px rgba(250, 150, 150, 0.5);
       }
       .page1 p {
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 20px;
         max-width: 800px;
          font-family: "Papyrus", Fantasy;
@@ -216,6 +216,37 @@
         max-width: 300px;
         border-radius: 10px;
       }
+      @media (max-width: 768px) {
+  .photo-right {
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .photo-right img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .photo-right .text {
+    padding: 0;
+    font-size: 18px;
+  }
+
+  .header-text-highlighted {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .page2 p {
+    font-size: 18px;
+  }
+
+  .page2 h2 {
+    font-size: 28px;
+  }
+}
 
       .photo-right .text {
         max-width: 500px;
